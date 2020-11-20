@@ -4073,6 +4073,15 @@ img {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+#article-container del {
+  background-color: #252525;
+  color: #252525;
+  text-shadow: none;
+  text-decoration: none;
+}
+#article-container del:hover {
+  color: #fff !important;
+}
 @media screen and (max-width: 1024px) {
   .layout_post {
     width: auto;

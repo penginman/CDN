@@ -763,6 +763,12 @@ $(function () {
     })
   }
 
+  //你知道的太多了
+  const addDelTitle = function(){
+    console.log(123)
+    $('#article-container del').attr('title','你知道的太多了')
+  }
+
   const unRefreshFn = function () {
     $(window).on('resize', function () {
       if (window.innerWidth < 768) adjustMenu(0)
@@ -780,6 +786,7 @@ $(function () {
 
     if (GLOBAL_CONFIG_SITE.isPost) {
       OpenSidebarAuto()
+      addDelTitle()
       toggleSidebar()
       GLOBAL_CONFIG_SITE.isSidebar && tocFn()
       GLOBAL_CONFIG.noticeOutdate !== undefined && addPostOutdateNotice()
