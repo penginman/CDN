@@ -766,7 +766,7 @@ $(function () {
   //你知道的太多了
   const addDelTitle = function(){
     console.log(123)
-    $('#article-container del').attr('title','你知道的太多了')
+    $('.heimu').attr('title','你知道的太多了')
   }
 
   const unRefreshFn = function () {
