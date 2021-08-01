@@ -1,5 +1,5 @@
 # your domain
-domain: example.com
+domain: momozi.tk
 
 # database url
 database_url: ""
@@ -10,7 +10,4 @@ cf_key: ""
 
 # source definition file
 source-files:
-  # use local file
-  - source.yaml
-  # use web file
-  - https://example.com/source.yaml
+  - https://cdn.jsdelivr.net/gh/guobang-yoo/CDN@master/tmp/proxypool/source.yaml
